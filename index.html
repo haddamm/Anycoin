@@ -3,22 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>We'll be right back!</title>
+  <title>AnyCoin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      background-color: black;
-      color: white;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       height: 100vh;
-      font-size: 3rem;
-      font-family: sans-serif;
+      text-align: center;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 3em;
+      font-style: italic;
+      margin: 0;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .btn {
+      background: #fff;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:hover {
+      background: #aaa;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8em;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  We'll be right back!
+  <img src="logo.png" alt="AnyCoin Logo" class="logo">
+  <h1>ANYCOIN</h1>
+  <p>My friend told me to buy Anycoin, so I did</p>
+  <a href="https://pump.fun/coin/DS2PJbHeKsXHDKBL9quU4f6VdBr7jk3xW4vAZy2bpump" class="btn" target="_blank">BUY ANYCOIN</a>
+  <footer>
+    &copy; 2025 AnyCoin. All rights degen'd.
+  </footer>
 </body>
 </html>
